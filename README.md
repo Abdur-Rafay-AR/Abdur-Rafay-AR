@@ -1,7 +1,7 @@
 ## Hi there 👋
 
 - 🔭 I’m currently working on a news website
-- 🌱 I’m currently learning PyTorch and React
+- 🌱 I’m currently learning TnsorFlow and React
 - 💬 Ask me about chess openings♟️
 
 - ⚡ Fun fact: The term 'Artificial Intelligence' was coined in 1956 at a conference at Dartmouth College. The goal? To see if machines could mimic human intelligence. Little did they know, AI would one day help      recommend movies, drive cars, and even generate art!"
