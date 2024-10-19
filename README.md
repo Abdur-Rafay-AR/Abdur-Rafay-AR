@@ -43,3 +43,5 @@
 
 ## Random Quote
 ![Quote](https://github-readme-quotes-bay.vercel.app/quote?theme=gruvbox&animation=default&layout=default&font=default&quoteType=random)
+
+[![](https://visitcount.itsvg.in/api?id=Abdur-Rafay-AR&icon=3&color=2)](https://visitcount.itsvg.in)
