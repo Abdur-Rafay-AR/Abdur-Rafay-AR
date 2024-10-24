@@ -3,7 +3,7 @@
 - 🔭 I’m currently working on a news website
 - 🌱 I’m currently learning TensorFlow and React
 - 💬 Ask me about chess openings♟️
-- ⚡ Fun fact: Proficient in 3 international languages.
+- ⚡ Fun fact: Proficient in 2 international languages.
 
 ## 💻 Languages I Use
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
