@@ -1,6 +1,5 @@
 ## Hi there 👋
 
-- 🔭 I’m currently working on a news website
 - 🌱 I’m currently learning TensorFlow and React
 - 💬 Ask me about chess openings♟️
 - ⚡ Fun fact: Proficient in 2 international languages.
