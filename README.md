@@ -1,8 +1,9 @@
 ## Hi there 👋
+I'm Abdur Rafay — professional bug creator, part-time bug fixer.🐛🔧  
+I write code, drink coffee, and occasionally make something that actually works.
 
-- 🌱 I’m currently learning R and React
-- 💬 Ask me about chess openings♟️
-- ⚡ Fun fact: Proficient in 2 international languages.
+Feel free to browse my repos…  
+some of them even run without crashing. 😎
 
 ## 💻 Languages I Use
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
@@ -28,13 +29,15 @@
 ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![AssemblyScript](https://img.shields.io/badge/assembly%20script-%23000000.svg?style=for-the-badge&logo=assemblyscript&logoColor=white)
 
-
-## Tools I Use
+## ✴️Cool Stuff I Use
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Microsoft Office](https://img.shields.io/badge/Microsoft_Office-D83B01?style=for-the-badge&logo=microsoft-office&logoColor=white)
+![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Google%20Colab-%23F9A825.svg?style=for-the-badge&logo=googlecolab&logoColor=white)
 
 ## 📊 GitHub Stats:
 ![Abdur-Rafay-AR's Stats](https://github-readme-stats.vercel.app/api?username=Abdur-Rafay-AR&theme=gruvbox&show_icons=true&hide_border=true&count_private=true)
