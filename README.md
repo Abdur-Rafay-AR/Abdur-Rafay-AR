@@ -43,7 +43,4 @@
 
 ![Abdur-Rafay-AR's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Abdur-Rafay-AR&theme=gruvbox&show_icons=true&hide_border=true&layout=compact)
 
-## Random Quote
-![Quote](https://github-readme-quotes-bay.vercel.app/quote?theme=gruvbox&animation=default&layout=default&font=default&quoteType=random)
-##
 [![](https://visitcount.itsvg.in/api?id=Abdur-Rafay-AR&icon=3&color=12)](https://visitcount.itsvg.in)
