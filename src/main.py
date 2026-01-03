@@ -22,6 +22,14 @@ def main():
         api = GitHubAPI(token)
         svg_gen = SVGGenerator()
 
+        # Determine assets directory path relative to this script
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        project_root = os.path.dirname(script_dir)
+        assets_dir = os.path.join(project_root, "assets")
+
+        if not os.path.exists(assets_dir):
+            os.makedirs(assets_dir)
+
         # 1. Streak Card
         print("Fetching contribution data...")
         calendar_data = api.get_contribution_data(username)
@@ -31,9 +39,9 @@ def main():
         print(f"Streak: {streak}, Total: {total_contributions}")
         streak_svg = svg_gen.generate_streak_svg(streak, total_contributions)
         
-        with open("assets/github-streak.svg", "w", encoding="utf-8") as f:
+        with open(os.path.join(assets_dir, "github-streak.svg"), "w", encoding="utf-8") as f:
             f.write(streak_svg)
-        print("Generated assets/github-streak.svg")
+        print(f"Generated {os.path.join(assets_dir, 'github-streak.svg')}")
 
         # 2. Top Languages Card
         print("Fetching repository languages...")
@@ -43,9 +51,9 @@ def main():
         print(f"Top Languages: {[l['name'] for l in top_languages]}")
         lang_svg = svg_gen.generate_languages_svg(top_languages)
         
-        with open("assets/top-languages.svg", "w", encoding="utf-8") as f:
+        with open(os.path.join(assets_dir, "top-languages.svg"), "w", encoding="utf-8") as f:
             f.write(lang_svg)
-        print("Generated assets/top-languages.svg")
+        print(f"Generated {os.path.join(assets_dir, 'top-languages.svg')}")
 
     except Exception as e:
         print(f"Error: {e}")
