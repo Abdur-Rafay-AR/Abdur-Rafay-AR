@@ -1,7 +1,11 @@
 import os
 import sys
+from dotenv import load_dotenv
 from github_api import GitHubAPI
 from svg_generator import SVGGenerator
+
+# Load environment variables from .env file
+load_dotenv()
 
 def main():
     token = os.environ.get("GITHUB_TOKEN")
@@ -33,11 +37,11 @@ def main():
         # 1. Streak Card
         print("Fetching contribution data...")
         calendar_data = api.get_contribution_data(username)
-        streak = api.calculate_streak(calendar_data)
+        streak_data = api.calculate_streak(calendar_data)
         total_contributions = calendar_data['totalContributions']
         
-        print(f"Streak: {streak}, Total: {total_contributions}")
-        streak_svg = svg_gen.generate_streak_svg(streak, total_contributions)
+        print(f"Streak: {streak_data['currentStreak']}, Longest: {streak_data['longestStreak']}, Total: {total_contributions}")
+        streak_svg = svg_gen.generate_streak_svg(streak_data, total_contributions)
         
         with open(os.path.join(assets_dir, "github-streak.svg"), "w", encoding="utf-8") as f:
             f.write(streak_svg)
