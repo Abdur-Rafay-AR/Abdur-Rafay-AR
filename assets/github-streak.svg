@@ -1,0 +1,27 @@
+
+        <svg width="400" height="150" viewBox="0 0 400 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="400" height="150" rx="4.5" fill="#282828" stroke="#3c3836" />
+            
+            <style>
+                .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #b8bb26; }
+                .stat { font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #ebdbb2; }
+                .stagger { animation: fadeInAnimation 0.8s ease-in-out forwards; }
+                @keyframes fadeInAnimation { from { opacity: 0; } to { opacity: 1; } }
+            </style>
+        
+            
+            <g transform="translate(25, 35)">
+                <text x="0" y="0" class="header">GitHub Streak</text>
+            </g>
+            
+            <g transform="translate(25, 80)">
+                <text x="0" y="0" class="stat" style="font-size: 32px; fill: #ebdbb2">1</text>
+                <text x="0" y="25" class="stat" style="font-size: 12px; fill: #928374">Current Streak (Days)</text>
+            </g>
+            
+            <g transform="translate(200, 80)">
+                <text x="0" y="0" class="stat" style="font-size: 32px; fill: #ebdbb2">582</text>
+                <text x="0" y="25" class="stat" style="font-size: 12px; fill: #928374">Total Contributions</text>
+            </g>
+        </svg>
+        
