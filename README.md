@@ -41,8 +41,8 @@ some of them even run without crashing. 😎
 ![Google Colab](https://img.shields.io/badge/Google%20Colab-%23F9A825.svg?style=for-the-badge&logo=googlecolab&logoColor=white)
 
 ## 📊 GitHub Stats:
-![Abdur-Rafay-AR's Streak](https://github-readme-streak-stats.herokuapp.com/?user=Abdur-Rafay-AR&theme=gruvbox&hide_border=true)
+![GitHub Streak](assets/github-streak.svg)
 
-![Abdur-Rafay-AR's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Abdur-Rafay-AR&theme=gruvbox&show_icons=true&hide_border=true&layout=compact)
+![Top Languages](assets/top-languages.svg)
 
 [![](https://visitcount.itsvg.in/api?id=Abdur-Rafay-AR&icon=3&color=12)](https://visitcount.itsvg.in)
