@@ -165,7 +165,7 @@ function generateLanguageCard(languages) {
             .card-bg { fill: ${theme.bg}; stroke: ${theme.border}; stroke-width: 2px; }
         </style>
         <rect x="1" y="1" rx="10" height="${height - 2}" width="${width - 2}" class="card-bg"/>
-        <text x="${padding}" y="35" class="header">Top Languages</text>
+        <text x="${padding}" y="35" class="header">💻 Top Languages</text>
     `;
 
     let yOffset = 60;
@@ -198,33 +198,57 @@ function generateActivityCard(stats) {
         header: '#fe8019', // Orange
         label: '#a89984',
         value: '#8ec07c', // Aqua
-        border: '#3c3836'
+        border: '#3c3836',
+        cardBg: '#32302f', // Slightly lighter for sub-cards
     };
 
     return `
     <svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+                <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+                <feOffset dx="2" dy="2" result="offsetblur"/>
+                <feComponentTransfer>
+                    <feFuncA type="linear" slope="0.3"/>
+                </feComponentTransfer>
+                <feMerge>
+                    <feMergeNode/>
+                    <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+            </filter>
+        </defs>
         <style>
             .header { font: 600 22px 'Segoe UI', Ubuntu, Sans-Serif; fill: ${theme.header}; }
-            .stat-label { font: 400 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: ${theme.label}; }
-            .stat-value { font: 600 28px 'Segoe UI', Ubuntu, Sans-Serif; fill: ${theme.value}; }
+            .stat-label { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: ${theme.label}; }
+            .stat-value { font: 600 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: ${theme.value}; }
             .card-bg { fill: ${theme.bg}; stroke: ${theme.border}; stroke-width: 2px; }
+            .sub-card { fill: ${theme.cardBg}; rx: 5; filter: url(#shadow); }
         </style>
         <rect x="1" y="1" rx="10" height="${height - 2}" width="${width - 2}" class="card-bg"/>
-        <text x="${padding}" y="40" class="header">GitHub Activity</text>
+        <text x="${padding}" y="40" class="header">⚡ GitHub Activity</text>
         
-        <g transform="translate(${padding}, 90)">
-            <text x="0" y="0" class="stat-label">Total Contributions</text>
-            <text x="0" y="35" class="stat-value">${stats.totalContributions}</text>
+        <!-- Total Contributions -->
+        <g transform="translate(${padding}, 70)">
+            <rect width="120" height="100" class="sub-card"/>
+            <text x="60" y="30" class="stat-label" text-anchor="middle">📦 Total</text>
+            <text x="60" y="45" class="stat-label" text-anchor="middle">Contributions</text>
+            <text x="60" y="80" class="stat-value" text-anchor="middle">${stats.totalContributions}</text>
         </g>
         
-        <g transform="translate(${padding + 150}, 90)">
-            <text x="0" y="0" class="stat-label">Current Streak</text>
-            <text x="0" y="35" class="stat-value" style="fill: #fabd2f">${stats.currentStreak}</text>
+        <!-- Current Streak -->
+        <g transform="translate(${padding + 140}, 70)">
+            <rect width="120" height="100" class="sub-card"/>
+            <text x="60" y="30" class="stat-label" text-anchor="middle">🔥 Current</text>
+            <text x="60" y="45" class="stat-label" text-anchor="middle">Streak</text>
+            <text x="60" y="80" class="stat-value" text-anchor="middle" style="fill: #fabd2f">${stats.currentStreak}</text>
         </g>
         
-        <g transform="translate(${padding + 300}, 90)">
-            <text x="0" y="0" class="stat-label">Longest Streak</text>
-            <text x="0" y="35" class="stat-value" style="fill: #fb4934">${stats.longestStreak}</text>
+        <!-- Longest Streak -->
+        <g transform="translate(${padding + 280}, 70)">
+            <rect width="120" height="100" class="sub-card"/>
+            <text x="60" y="30" class="stat-label" text-anchor="middle">🏆 Longest</text>
+            <text x="60" y="45" class="stat-label" text-anchor="middle">Streak</text>
+            <text x="60" y="80" class="stat-value" text-anchor="middle" style="fill: #fb4934">${stats.longestStreak}</text>
         </g>
     </svg>
     `;
