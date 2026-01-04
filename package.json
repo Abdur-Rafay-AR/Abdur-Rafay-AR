@@ -1,0 +1,15 @@
+{
+  "name": "github-stats-generator",
+  "version": "1.0.0",
+  "description": "Custom GitHub stats generator",
+  "main": "generate-stats.js",
+  "scripts": {
+    "start": "node generate-stats.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
