@@ -42,7 +42,7 @@ some of them even run without crashing. 😎
 
 ## 📊 GitHub Stats:
 <div align="left">
-  <img src="stats/top-languages.svg" alt="Top Languages" width="30%" />
+  <img src="stats/top-languages.svg" alt="Top Languages" width="42%" />
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="stats/activity.svg" alt="GitHub Activity" width="48%" />
 </div>
