@@ -41,8 +41,9 @@ some of them even run without crashing. 😎
 ![Google Colab](https://img.shields.io/badge/Google%20Colab-%23F9A825.svg?style=for-the-badge&logo=googlecolab&logoColor=white)
 
 ## 📊 GitHub Stats:
-![GitHub Streak](assets/github-streak.svg)
-
-![Top Languages](assets/top-languages.svg)
+<div align="center">
+  <img src="stats/activity.svg" alt="GitHub Activity" width="48%" />
+  <img src="stats/top-languages.svg" alt="Top Languages" width="48%" />
+</div>
 
 [![](https://visitcount.itsvg.in/api?id=Abdur-Rafay-AR&icon=3&color=12)](https://visitcount.itsvg.in)
