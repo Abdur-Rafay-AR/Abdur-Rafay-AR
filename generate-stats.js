@@ -187,9 +187,9 @@ function generateLanguageCard(languages) {
 }
 
 function generateActivityCard(stats) {
-    const width = 300;
-    const height = 160;
-    const padding = 20;
+    const width = 450;
+    const height = 200;
+    const padding = 25;
 
     // Gruvbox Dark Theme
     const theme = {
@@ -204,27 +204,27 @@ function generateActivityCard(stats) {
     return `
     <svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg">
         <style>
-            .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: ${theme.header}; }
-            .stat-label { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: ${theme.label}; }
-            .stat-value { font: 600 20px 'Segoe UI', Ubuntu, Sans-Serif; fill: ${theme.value}; }
+            .header { font: 600 22px 'Segoe UI', Ubuntu, Sans-Serif; fill: ${theme.header}; }
+            .stat-label { font: 400 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: ${theme.label}; }
+            .stat-value { font: 600 28px 'Segoe UI', Ubuntu, Sans-Serif; fill: ${theme.value}; }
             .card-bg { fill: ${theme.bg}; stroke: ${theme.border}; stroke-width: 2px; }
         </style>
         <rect x="1" y="1" rx="10" height="${height - 2}" width="${width - 2}" class="card-bg"/>
-        <text x="${padding}" y="35" class="header">GitHub Activity</text>
+        <text x="${padding}" y="40" class="header">GitHub Activity</text>
         
-        <g transform="translate(${padding}, 70)">
+        <g transform="translate(${padding}, 90)">
             <text x="0" y="0" class="stat-label">Total Contributions</text>
-            <text x="0" y="30" class="stat-value">${stats.totalContributions}</text>
+            <text x="0" y="35" class="stat-value">${stats.totalContributions}</text>
         </g>
         
-        <g transform="translate(${padding + 110}, 70)">
+        <g transform="translate(${padding + 150}, 90)">
             <text x="0" y="0" class="stat-label">Current Streak</text>
-            <text x="0" y="30" class="stat-value" style="fill: #fabd2f">${stats.currentStreak}</text>
+            <text x="0" y="35" class="stat-value" style="fill: #fabd2f">${stats.currentStreak}</text>
         </g>
         
-        <g transform="translate(${padding + 200}, 70)">
+        <g transform="translate(${padding + 300}, 90)">
             <text x="0" y="0" class="stat-label">Longest Streak</text>
-            <text x="0" y="30" class="stat-value" style="fill: #fb4934">${stats.longestStreak}</text>
+            <text x="0" y="35" class="stat-value" style="fill: #fb4934">${stats.longestStreak}</text>
         </g>
     </svg>
     `;
