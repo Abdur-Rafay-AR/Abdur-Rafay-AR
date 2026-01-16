@@ -1,5 +1,5 @@
 ## Hi there 👋
-I'm Abdur Rafay — professional bug creator, part-time bug fixer.🐛🔧  
+I'm Abdur Rafay, professional bug creator, part-time bug fixer.🐛🔧  
 I write code, drink coffee, and occasionally make something that actually works.
 
 Feel free to browse my repos…  
