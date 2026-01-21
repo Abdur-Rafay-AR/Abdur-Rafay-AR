@@ -12,25 +12,25 @@
         <g transform="translate(20, 60)">
             <circle cx="5" cy="6" r="5" fill="#f34b7d" />
             <text x="15" y="10" class="lang-name">C++</text>
-            <text x="250" y="10" class="lang-pct" text-anchor="end">47.3%</text>
+            <text x="250" y="10" class="lang-pct" text-anchor="end">47.2%</text>
             <rect x="0" y="20" width="260" height="6" rx="3" fill="#3c3836" />
-            <rect x="0" y="20" width="123.10182710781406" height="6" rx="3" fill="#f34b7d" />
+            <rect x="0" y="20" width="122.64528853821811" height="6" rx="3" fill="#f34b7d" />
         </g>
         
         <g transform="translate(20, 95)">
             <circle cx="5" cy="6" r="5" fill="#3572A5" />
             <text x="15" y="10" class="lang-name">Python</text>
-            <text x="250" y="10" class="lang-pct" text-anchor="end">20.0%</text>
+            <text x="250" y="10" class="lang-pct" text-anchor="end">20.3%</text>
             <rect x="0" y="20" width="260" height="6" rx="3" fill="#3c3836" />
-            <rect x="0" y="20" width="52.103585093586894" height="6" rx="3" fill="#3572A5" />
+            <rect x="0" y="20" width="52.874595029957476" height="6" rx="3" fill="#3572A5" />
         </g>
         
         <g transform="translate(20, 130)">
             <circle cx="5" cy="6" r="5" fill="#DA5B0B" />
             <text x="15" y="10" class="lang-name">Jupyter Notebook</text>
-            <text x="250" y="10" class="lang-pct" text-anchor="end">17.3%</text>
+            <text x="250" y="10" class="lang-pct" text-anchor="end">17.2%</text>
             <rect x="0" y="20" width="260" height="6" rx="3" fill="#3c3836" />
-            <rect x="0" y="20" width="44.858477609719905" height="6" rx="3" fill="#DA5B0B" />
+            <rect x="0" y="20" width="44.69211431777415" height="6" rx="3" fill="#DA5B0B" />
         </g>
         
         <g transform="translate(20, 165)">
@@ -38,7 +38,7 @@
             <text x="15" y="10" class="lang-name">CSS</text>
             <text x="250" y="10" class="lang-pct" text-anchor="end">5.5%</text>
             <rect x="0" y="20" width="260" height="6" rx="3" fill="#3c3836" />
-            <rect x="0" y="20" width="14.294365555815592" height="6" rx="3" fill="#663399" />
+            <rect x="0" y="20" width="14.241353107849099" height="6" rx="3" fill="#663399" />
         </g>
         
         <g transform="translate(20, 200)">
@@ -46,6 +46,6 @@
             <text x="15" y="10" class="lang-name">HTML</text>
             <text x="250" y="10" class="lang-pct" text-anchor="end">3.9%</text>
             <rect x="0" y="20" width="260" height="6" rx="3" fill="#3c3836" />
-            <rect x="0" y="20" width="10.19303736037257" height="6" rx="3" fill="#e34c26" />
+            <rect x="0" y="20" width="10.155235202551898" height="6" rx="3" fill="#e34c26" />
         </g>
         </svg>
