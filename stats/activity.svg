@@ -28,7 +28,7 @@
             <rect width="120" height="100" class="sub-card"/>
             <text x="60" y="30" class="stat-label" text-anchor="middle">📦 Total</text>
             <text x="60" y="45" class="stat-label" text-anchor="middle">Contributions</text>
-            <text x="60" y="80" class="stat-value" text-anchor="middle">703</text>
+            <text x="60" y="80" class="stat-value" text-anchor="middle">717</text>
         </g>
         
         <!-- Current Streak -->
@@ -36,7 +36,7 @@
             <rect width="120" height="100" class="sub-card"/>
             <text x="60" y="30" class="stat-label" text-anchor="middle">🔥 Current</text>
             <text x="60" y="45" class="stat-label" text-anchor="middle">Streak</text>
-            <text x="60" y="80" class="stat-value" text-anchor="middle" style="fill: #fabd2f">0</text>
+            <text x="60" y="80" class="stat-value" text-anchor="middle" style="fill: #fabd2f">1</text>
         </g>
         
         <!-- Longest Streak -->
