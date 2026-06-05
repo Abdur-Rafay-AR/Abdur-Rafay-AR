@@ -14,7 +14,7 @@
             <text x="15" y="10" class="lang-name">Python</text>
             <text x="250" y="10" class="lang-pct" text-anchor="end">82.2%</text>
             <rect x="0" y="20" width="260" height="6" rx="3" fill="#3c3836" />
-            <rect x="0" y="20" width="213.60880017405282" height="6" rx="3" fill="#3572A5" />
+            <rect x="0" y="20" width="213.61127236369177" height="6" rx="3" fill="#3572A5" />
         </g>
         
         <g transform="translate(20, 95)">
@@ -22,7 +22,7 @@
             <text x="15" y="10" class="lang-name">C++</text>
             <text x="250" y="10" class="lang-pct" text-anchor="end">8.0%</text>
             <rect x="0" y="20" width="260" height="6" rx="3" fill="#3c3836" />
-            <rect x="0" y="20" width="20.77489010406611" height="6" rx="3" fill="#f34b7d" />
+            <rect x="0" y="20" width="20.77513054110814" height="6" rx="3" fill="#f34b7d" />
         </g>
         
         <g transform="translate(20, 130)">
@@ -30,7 +30,7 @@
             <text x="15" y="10" class="lang-name">Jupyter Notebook</text>
             <text x="250" y="10" class="lang-pct" text-anchor="end">2.9%</text>
             <rect x="0" y="20" width="260" height="6" rx="3" fill="#3c3836" />
-            <rect x="0" y="20" width="7.570398949167875" height="6" rx="3" fill="#DA5B0B" />
+            <rect x="0" y="20" width="7.570486564761567" height="6" rx="3" fill="#DA5B0B" />
         </g>
         
         <g transform="translate(20, 165)">
@@ -38,7 +38,7 @@
             <text x="15" y="10" class="lang-name">CSS</text>
             <text x="250" y="10" class="lang-pct" text-anchor="end">2.6%</text>
             <rect x="0" y="20" width="260" height="6" rx="3" fill="#3c3836" />
-            <rect x="0" y="20" width="6.6450411088284955" height="6" rx="3" fill="#663399" />
+            <rect x="0" y="20" width="6.645516043366249" height="6" rx="3" fill="#663399" />
         </g>
         
         <g transform="translate(20, 200)">
@@ -46,6 +46,6 @@
             <text x="15" y="10" class="lang-name">JavaScript</text>
             <text x="250" y="10" class="lang-pct" text-anchor="end">2.1%</text>
             <rect x="0" y="20" width="260" height="6" rx="3" fill="#3c3836" />
-            <rect x="0" y="20" width="5.557560167285165" height="6" rx="3" fill="#f1e05a" />
+            <rect x="0" y="20" width="5.557624487400499" height="6" rx="3" fill="#f1e05a" />
         </g>
         </svg>
