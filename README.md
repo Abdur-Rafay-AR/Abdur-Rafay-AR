@@ -13,14 +13,9 @@
 
 ---
 
-### What I do
+### Background
 
-I build AI systems that run in production, not just notebooks: RAG pipelines, multi-agent orchestration, and voice agents, plus the infra to deploy and scale them (Docker, CI/CD, cloud).
-
-- 🧠 Focused on agentic architectures: tool-calling reliability, multi-step task orchestration, RAG systems that hold up under real traffic
-- 🛠️ Comfortable across the full stack: backend APIs, browser automation, cloud infra (AWS, Azure)
-- 🎙️ Built voice agent systems with real-time automation and call handling
-- 📈 Open to select freelance/contract AI engineering work
+Self-taught AI/ML engineer, started building at 17. Since then I've shipped 25+ production AI systems spanning RAG pipelines, multi-agent orchestration, and voice agents, backed by six internships across international teams. Currently studying AI/ML engineering and open to select freelance or contract work.
 
 ---
 
