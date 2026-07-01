@@ -1,44 +1,59 @@
-## Hi there 👋
-I'm Abdur Rafay, professional bug creator, part-time bug fixer.🐛🔧  
-I write code, drink coffee, and occasionally make something that actually works.
+<h1 align="center">Abdur Rafay</h1>
+<h3 align="center">AI/ML Engineer building production-grade agentic systems</h3>
 
-Feel free to browse my repos…  
-some of them even run without crashing. 😎
+<p align="center">
+  RAG pipelines, multi-agent systems, and voice AI in production
+</p>
 
-## 💻 Languages I Use
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
-![FastAPI](https://img.shields.io/badge/fastapi-109989?style=for-the-badge&logo=FASTAPI&logoColor=white)
-![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
-![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
-![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![AssemblyScript](https://img.shields.io/badge/assembly%20script-%23000000.svg?style=for-the-badge&logo=assemblyscript&logoColor=white)
+<p align="center">
+  <a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white"></a>
+  <a href="mailto:YOUR-EMAIL"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white"></a>
+  <a href="https://YOUR-PORTFOLIO"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white"></a>
+</p>
 
-## ✴️Cool Stuff I Use
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Microsoft Office](https://img.shields.io/badge/Microsoft_Office-D83B01?style=for-the-badge&logo=microsoft-office&logoColor=white)
-![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)
-![Google Colab](https://img.shields.io/badge/Google%20Colab-%23F9A825.svg?style=for-the-badge&logo=googlecolab&logoColor=white)
+---
+
+### What I do
+
+I build AI systems that run in production, not just notebooks: RAG pipelines, multi-agent orchestration, and voice agents, plus the infra to deploy and scale them (Docker, CI/CD, cloud).
+
+- 🧠 Focused on agentic architectures: tool-calling reliability, multi-step task orchestration, RAG systems that hold up under real traffic
+- 🛠️ Comfortable across the full stack: backend APIs, browser automation, cloud infra (AWS, Azure)
+- 🎙️ Built voice agent systems with real-time automation and call handling
+- 📈 Open to select freelance/contract AI engineering work
+
+---
+
+### Stack
+
+**Languages & Core**
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+**AI / ML**
+![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![OpenAI](https://img.shields.io/badge/-LLMs-412991?style=flat-square&logo=openai&logoColor=white)
+![RAG](https://img.shields.io/badge/-RAG%20Pipelines-4285F4?style=flat-square)
+
+**Backend & Infra**
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Azure](https://img.shields.io/badge/-Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+
+---
+
+### Featured work
+
+| Project | What it does | Stack |
+|---|---|---|
+| **[ai-cache](https://github.com/Abdur-Rafay-AR/ai-cache)** | Automatic caching layer for LLM API responses across OpenAI, Gemini, and Anthropic | Python, LLM APIs |
+| **[resume-ai-system](https://github.com/Abdur-Rafay-AR/resume-ai-system)** | AI-powered resume analysis system, deployed and Groq-backed | Python, Groq, LLMs |
+| **[domain-market-analyzer](https://github.com/Abdur-Rafay-AR/domain-market-analyzer)** | Scraper and analyzer for Australian real estate market data | Python, web scraping |
+| **[bahria-LMS-assignment-checker](https://github.com/Abdur-Rafay-AR/bahria-LMS-assignment-checker)** | Automation tool that monitors and checks LMS assignments | Python |
+
+---
 
 ## 📊 GitHub Stats:
 <div align="left">
@@ -46,6 +61,3 @@ some of them even run without crashing. 😎
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="stats/activity.svg" alt="GitHub Activity" width="48%" />
 </div>
-
-
-[![](https://visitcount.itsvg.in/api?id=Abdur-Rafay-AR&icon=3&color=12)](https://visitcount.itsvg.in)
