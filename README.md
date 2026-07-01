@@ -6,9 +6,9 @@
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:YOUR-EMAIL"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white"></a>
-  <a href="https://YOUR-PORTFOLIO"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white"></a>
+  <a href="https://linkedin.com/in/abdur-rafay-ar"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white"></a>
+  <a href="mailto:abdurrafay432007@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white"></a>
+  <a href="https://abdur-rafay-ar.github.io/"><img src="https://img.shields.io/badge/Portfolio-181717?style=flat&logo=github&logoColor=white"></a>
 </p>
 
 ---
