@@ -44,6 +44,31 @@ AI/ML engineer pursuing a Bachelor's in Artificial Intelligence. Shipped 25+ pro
 IBM AI Developer Professional Certificate · Generative AI with Large Language Models (AWS) · Supervised Machine Learning (Stanford)
 
 <!-- CREDLY-BADGES:START -->
+🏅 **Industry Certifications**
+
+<div align="center">
+
+
+</div>
+
+📚 **Knowledge & Learning Badges**
+
+<div align="center">
+
+<a href="https://www.credly.com/badges/75a6c244-0709-4b7e-85ea-2d826e1b9c86" title="IBM AI Developer Professional Certificate"><img src="https://images.credly.com/size/100x100/images/70675aed-31be-4c30-add7-b99905a34005/image.png" alt="IBM AI Developer Professional Certificate" width="100" height="100"></a>
+<a href="https://www.credly.com/badges/22524bb5-bd53-449b-916f-3784f72ee592" title="Software Developer Career Guide and Interview Preparation"><img src="https://images.credly.com/size/100x100/images/8647d8b6-2e29-4a88-bfb8-d5ba41ab5716/image.png" alt="Software Developer Career Guide and Interview Preparation" width="100" height="100"></a>
+<a href="https://www.credly.com/badges/f86914a7-3b81-4ede-9487-02d12ded8fd6" title="Generative AI Essentials for Software Developers"><img src="https://images.credly.com/size/100x100/images/afaacd18-d4a9-48af-b54c-846615756ec7/image.png" alt="Generative AI Essentials for Software Developers" width="100" height="100"></a>
+<a href="https://www.credly.com/badges/02fa20b6-b5bc-454f-b5cc-eedc2918bbef" title="Building Generative AI-Powered Applications with Python"><img src="https://images.credly.com/size/100x100/images/e462102c-b2ee-4208-aca0-b58f53331266/image.png" alt="Building Generative AI-Powered Applications with Python" width="100" height="100"></a>
+<a href="https://www.credly.com/badges/f2b7aef5-2df3-469c-ada3-7d23b218b999" title="Python Project for AI and Application Development"><img src="https://images.credly.com/size/100x100/images/33ed2910-9750-4613-aa2a-590e845c6edb/image.png" alt="Python Project for AI and Application Development" width="100" height="100"></a>
+<a href="https://www.credly.com/badges/a39d7dd4-7565-48df-9406-6d3f3e1bffca" title="Python for Data Science and AI"><img src="https://images.credly.com/size/100x100/images/40bee502-a5b3-4365-90e7-57eed5067594/image.png" alt="Python for Data Science and AI" width="100" height="100"></a>
+<a href="https://www.credly.com/badges/a2dd7b0f-764b-4b4f-bcca-3b76b1695e8e" title="Generative AI: Prompt Engineering"><img src="https://images.credly.com/size/100x100/images/7fd5a03e-823f-4449-af43-59afe528f4ee/image.png" alt="Generative AI: Prompt Engineering" width="100" height="100"></a>
+<a href="https://www.credly.com/badges/01b65dcc-3e05-4f23-a044-7a0e0b6fc3b4" title="Generative AI Essentials"><img src="https://images.credly.com/size/100x100/images/7658c4f1-0570-42c7-83b0-04cac8b0aca2/image.png" alt="Generative AI Essentials" width="100" height="100"></a>
+<a href="https://www.credly.com/badges/24ab7a5b-2502-456f-8e8e-0aed202829ff" title="Introduction to HTML, CSS, & JavaScript"><img src="https://images.credly.com/size/100x100/images/09490195-093b-4c9f-9f31-bdc434e66a23/Coursera_20Introduction_20to_20HTML_20CSS_20and_20JavaScript.png" alt="Introduction to HTML, CSS, & JavaScript" width="100" height="100"></a>
+<a href="https://www.credly.com/badges/7684302f-4c2a-403b-a07a-1484ddc13e90" title="Software Engineering Essentials"><img src="https://images.credly.com/size/100x100/images/1b67aaf9-670d-4c92-8d51-7ac1190f0a42/image.png" alt="Software Engineering Essentials" width="100" height="100"></a>
+<a href="https://www.credly.com/badges/d9583e4b-cb29-43e5-9e1a-35f351563615" title="Databases and SQL for Data Science"><img src="https://images.credly.com/size/100x100/images/f2573aac-d21c-483d-acda-afaa366b4f51/image.png" alt="Databases and SQL for Data Science" width="100" height="100"></a>
+<a href="https://www.credly.com/badges/081a3388-287b-4e24-b286-1f65e95ebb9d" title="Artificial Intelligence Essentials V2"><img src="https://images.credly.com/size/100x100/images/3e199561-bc4a-4621-9361-340fc43d997e/Coursera_20Artificial_20Intelligence_20Essentials_20V2.png" alt="Artificial Intelligence Essentials V2" width="100" height="100"></a>
+
+</div>
 <!-- CREDLY-BADGES:END -->
 
 ---
