@@ -15,7 +15,7 @@
 
 ### Background
 
-Self-taught AI/ML engineer, started building at 17. Since then I've shipped 25+ production AI systems spanning RAG pipelines, multi-agent orchestration, and voice agents, backed by six internships across international teams. Currently studying AI/ML engineering and open to select freelance or contract work.
+AI/ML engineer pursuing a Bachelor's in Artificial Intelligence. Shipped 25+ production AI systems spanning RAG pipelines, multi-agent orchestration, and voice agents, backed by six internships across international teams. Open to select freelance or contract work.
 
 ---
 
@@ -36,6 +36,15 @@ Self-taught AI/ML engineer, started building at 17. Since then I've shipped 25+ 
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 ![Azure](https://img.shields.io/badge/-Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+
+---
+
+### [Certifications](https://www.credly.com/users/abdur-rafay.658ecb38)
+
+IBM AI Developer Professional Certificate · Generative AI with Large Language Models (AWS) · Supervised Machine Learning (Stanford)
+
+<!-- CREDLY-BADGES:START -->
+<!-- CREDLY-BADGES:END -->
 
 ---
 
