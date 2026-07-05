@@ -7,10 +7,13 @@ const USERNAME = process.env.GH_USERNAME || process.env.GITHUB_REPOSITORY_OWNER 
 
 const GRAPHQL_ENDPOINT = 'https://api.github.com/graphql';
 
+// Fetches account creation date, repositories (for language stats), and one
+// year of contributions (from/to optional — omitted means the last ~365 days).
 const query = `
-  query($username: String!) {
+  query($username: String!, $from: DateTime, $to: DateTime) {
     user(login: $username) {
-      contributionsCollection {
+      createdAt
+      contributionsCollection(from: $from, to: $to) {
         contributionCalendar {
           totalContributions
           weeks {
@@ -39,14 +42,14 @@ const query = `
   }
 `;
 
-async function fetchData() {
+async function runQuery(variables) {
     const response = await fetch(GRAPHQL_ENDPOINT, {
         method: 'POST',
         headers: {
             'Authorization': `bearer ${TOKEN}`,
             'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ query, variables: { username: USERNAME } }),
+        body: JSON.stringify({ query, variables }),
     });
 
     const json = await response.json();
@@ -55,6 +58,42 @@ async function fetchData() {
         process.exit(1);
     }
     return json.data.user;
+}
+
+// GitHub's contributionCalendar only spans ~1 year per call, so to get all-time
+// streaks and totals we walk year-by-year from account creation to today.
+async function fetchData() {
+    const base = await runQuery({ username: USERNAME });
+    const startYear = new Date(base.createdAt).getUTCFullYear();
+    const currentYear = new Date().getUTCFullYear();
+
+    const daysByDate = new Map();
+    const addCalendar = (calendar) => {
+        calendar.weeks.forEach(w => w.contributionDays.forEach(d => {
+            daysByDate.set(d.date, d.contributionCount);
+        }));
+    };
+    addCalendar(base.contributionsCollection.contributionCalendar);
+
+    // Fetch the remaining historical years (base call already covered the last ~365 days).
+    for (let year = startYear; year < currentYear; year++) {
+        const from = `${year}-01-01T00:00:00Z`;
+        const to = `${year}-12-31T23:59:59Z`;
+        const yearData = await runQuery({ username: USERNAME, from, to });
+        addCalendar(yearData.contributionsCollection.contributionCalendar);
+    }
+
+    const allDays = [...daysByDate.entries()]
+        .map(([date, contributionCount]) => ({ date, contributionCount }))
+        .sort((a, b) => new Date(a.date) - new Date(b.date));
+
+    const totalContributions = allDays.reduce((sum, d) => sum + d.contributionCount, 0);
+
+    return {
+        repositories: base.repositories,
+        allDays,
+        totalContributions,
+    };
 }
 
 function calculateLanguages(repositories) {
@@ -82,38 +121,15 @@ function calculateLanguages(repositories) {
     return sortedLangs;
 }
 
-function calculateStreak(contributionCalendar) {
-    const weeks = contributionCalendar.weeks;
-    const days = weeks.flatMap(w => w.contributionDays);
-    
+// Computes streaks over the full, deduplicated day history (sorted ascending).
+// totalContributions is passed in since it's summed across all years upstream.
+function calculateStreak(allDays, totalContributions) {
     const today = new Date().toISOString().split('T')[0];
-    let currentStreak = 0;
+    const days = allDays.filter(d => d.date <= today); // ignore future padding days
+
+    // Longest streak: max run of consecutive contributing days anywhere in history.
     let longestStreak = 0;
     let tempStreak = 0;
-    
-    // Sort days just in case, though usually sorted
-    days.sort((a, b) => new Date(a.date) - new Date(b.date));
-
-    // Check if today has contribution or yesterday (to keep streak alive)
-    // We iterate backwards for current streak
-    let streakBroken = false;
-    for (let i = days.length - 1; i >= 0; i--) {
-        const day = days[i];
-        if (day.date > today) continue; // Future days
-
-        if (day.contributionCount > 0) {
-            if (!streakBroken) currentStreak++;
-        } else {
-            // If it's today and 0, streak might not be broken if yesterday was active
-            if (day.date === today) {
-                // do nothing, wait for yesterday
-            } else {
-                streakBroken = true;
-            }
-        }
-    }
-
-    // Longest streak
     for (const day of days) {
         if (day.contributionCount > 0) {
             tempStreak++;
@@ -123,11 +139,21 @@ function calculateStreak(contributionCalendar) {
         }
     }
 
-    return {
-        totalContributions: contributionCalendar.totalContributions,
-        currentStreak,
-        longestStreak
-    };
+    // Current streak: count back from today. A zero *today* doesn't break the
+    // streak yet (the day isn't over); any earlier zero ends it.
+    let currentStreak = 0;
+    for (let i = days.length - 1; i >= 0; i--) {
+        const day = days[i];
+        if (day.contributionCount > 0) {
+            currentStreak++;
+        } else if (day.date === today) {
+            continue;
+        } else {
+            break;
+        }
+    }
+
+    return { totalContributions, currentStreak, longestStreak };
 }
 
 // Gruvbox Dark palette shared by both cards
@@ -273,8 +299,9 @@ async function main() {
         
         console.log('Calculating stats...');
         const languages = calculateLanguages(data.repositories);
-        const activity = calculateStreak(data.contributionsCollection.contributionCalendar);
-        
+        const activity = calculateStreak(data.allDays, data.totalContributions);
+        console.log(`  Total: ${activity.totalContributions} | Current streak: ${activity.currentStreak} | Longest: ${activity.longestStreak}`);
+
         console.log('Generating SVGs...');
         const langSvg = generateLanguageCard(languages);
         const activitySvg = generateActivityCard(activity);
