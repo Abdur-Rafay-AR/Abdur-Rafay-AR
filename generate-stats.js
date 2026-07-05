@@ -68,26 +68,27 @@ async function fetchData() {
     const currentYear = new Date().getUTCFullYear();
 
     const daysByDate = new Map();
-    const addCalendar = (calendar) => {
-        calendar.weeks.forEach(w => w.contributionDays.forEach(d => {
-            daysByDate.set(d.date, d.contributionCount);
-        }));
-    };
-    addCalendar(base.contributionsCollection.contributionCalendar);
+    let totalContributions = 0;
 
-    // Fetch the remaining historical years (base call already covered the last ~365 days).
-    for (let year = startYear; year < currentYear; year++) {
+    // Query each calendar year explicitly so the total is the sum of GitHub's
+    // own authoritative per-year `totalContributions` (rather than re-summing
+    // daily counts, which drifts by a day at year boundaries). Note: private
+    // contributions are only included for repos the token can access, so this
+    // can read lower than what you see logged in on your own profile.
+    for (let year = startYear; year <= currentYear; year++) {
         const from = `${year}-01-01T00:00:00Z`;
         const to = `${year}-12-31T23:59:59Z`;
         const yearData = await runQuery({ username: USERNAME, from, to });
-        addCalendar(yearData.contributionsCollection.contributionCalendar);
+        const cal = yearData.contributionsCollection.contributionCalendar;
+        totalContributions += cal.totalContributions;
+        cal.weeks.forEach(w => w.contributionDays.forEach(d => {
+            daysByDate.set(d.date, d.contributionCount);
+        }));
     }
 
     const allDays = [...daysByDate.entries()]
         .map(([date, contributionCount]) => ({ date, contributionCount }))
         .sort((a, b) => new Date(a.date) - new Date(b.date));
-
-    const totalContributions = allDays.reduce((sum, d) => sum + d.contributionCount, 0);
 
     return {
         repositories: base.repositories,
