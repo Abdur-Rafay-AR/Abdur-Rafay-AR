@@ -1,51 +1,56 @@
-
-    <svg width="300" height="275" viewBox="0 0 300 275" xmlns="http://www.w3.org/2000/svg">
-        <style>
-            .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #fabd2f; }
-            .lang-name { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #ebdbb2; }
-            .lang-pct { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #a89984; }
-            .card-bg { fill: #282828; stroke: #3c3836; stroke-width: 2px; }
-        </style>
-        <rect x="1" y="1" rx="10" height="273" width="298" class="card-bg"/>
-        <text x="20" y="35" class="header">💻 Top Languages</text>
+<svg width="340" height="270" viewBox="0 0 340 270" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Top languages">
+    <defs>
+        <linearGradient id="cardGradLang" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#282828"/>
+            <stop offset="100%" stop-color="#1d2021"/>
+        </linearGradient>
+    </defs>
+    <style>
+        .card-bg { fill: url(#cardGradLang); stroke: #3c3836; stroke-width: 1.5px; }
+        .header { font: 700 19px 'Segoe UI', Ubuntu, Sans-Serif; fill: #fabd2f; }
+        .lang-name { font: 500 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: #ebdbb2; }
+        .lang-pct { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #a89984; }
+        .row { opacity: 0; animation: fadeIn 0.6s ease forwards; }
+        .bar { transform: scaleX(0); transform-origin: left; animation: growIn 0.9s cubic-bezier(0.4,0,0.2,1) forwards; }
+        @keyframes fadeIn { to { opacity: 1; } }
+        @keyframes growIn { to { transform: scaleX(1); } }
+    </style>
+    <rect x="0.75" y="0.75" rx="12" height="268.5" width="338.5" class="card-bg"/>
+    <text x="22" y="40" class="header">💻 Top Languages</text>
     
-        <g transform="translate(20, 60)">
-            <circle cx="5" cy="6" r="5" fill="#f34b7d" />
-            <text x="15" y="10" class="lang-name">C++</text>
-            <text x="250" y="10" class="lang-pct" text-anchor="end">47.6%</text>
-            <rect x="0" y="20" width="260" height="6" rx="3" fill="#3c3836" />
-            <rect x="0" y="20" width="123.80806444902956" height="6" rx="3" fill="#f34b7d" />
+        <g transform="translate(22, 70)" class="row" style="animation-delay:0.15s">
+            <circle cx="6" cy="7" r="6" fill="#f34b7d" />
+            <text x="20" y="11" class="lang-name">C++</text>
+            <text x="296" y="11" class="lang-pct" text-anchor="end">47.6%</text>
+            <rect x="0" y="22" width="296" height="8" rx="4" fill="#3c3836" />
+            <rect x="0" y="22" width="140.9" height="8" rx="4" fill="#f34b7d" class="bar" style="animation-delay:0.15s" />
         </g>
-        
-        <g transform="translate(20, 95)">
-            <circle cx="5" cy="6" r="5" fill="#3572A5" />
-            <text x="15" y="10" class="lang-name">Python</text>
-            <text x="250" y="10" class="lang-pct" text-anchor="end">19.7%</text>
-            <rect x="0" y="20" width="260" height="6" rx="3" fill="#3c3836" />
-            <rect x="0" y="20" width="51.12569035067296" height="6" rx="3" fill="#3572A5" />
+        <g transform="translate(22, 108)" class="row" style="animation-delay:0.27s">
+            <circle cx="6" cy="7" r="6" fill="#3572A5" />
+            <text x="20" y="11" class="lang-name">Python</text>
+            <text x="296" y="11" class="lang-pct" text-anchor="end">19.7%</text>
+            <rect x="0" y="22" width="296" height="8" rx="4" fill="#3c3836" />
+            <rect x="0" y="22" width="58.31" height="8" rx="4" fill="#3572A5" class="bar" style="animation-delay:0.27s" />
         </g>
-        
-        <g transform="translate(20, 130)">
-            <circle cx="5" cy="6" r="5" fill="#DA5B0B" />
-            <text x="15" y="10" class="lang-name">Jupyter Notebook</text>
-            <text x="250" y="10" class="lang-pct" text-anchor="end">17.4%</text>
-            <rect x="0" y="20" width="260" height="6" rx="3" fill="#3c3836" />
-            <rect x="0" y="20" width="45.115831482545175" height="6" rx="3" fill="#DA5B0B" />
+        <g transform="translate(22, 146)" class="row" style="animation-delay:0.39s">
+            <circle cx="6" cy="7" r="6" fill="#DA5B0B" />
+            <text x="20" y="11" class="lang-name">Jupyter Notebook</text>
+            <text x="296" y="11" class="lang-pct" text-anchor="end">17.4%</text>
+            <rect x="0" y="22" width="296" height="8" rx="4" fill="#3c3836" />
+            <rect x="0" y="22" width="51.5" height="8" rx="4" fill="#DA5B0B" class="bar" style="animation-delay:0.39s" />
         </g>
-        
-        <g transform="translate(20, 165)">
-            <circle cx="5" cy="6" r="5" fill="#663399" />
-            <text x="15" y="10" class="lang-name">CSS</text>
-            <text x="250" y="10" class="lang-pct" text-anchor="end">5.5%</text>
-            <rect x="0" y="20" width="260" height="6" rx="3" fill="#3c3836" />
-            <rect x="0" y="20" width="14.37637258171993" height="6" rx="3" fill="#663399" />
+        <g transform="translate(22, 184)" class="row" style="animation-delay:0.51s">
+            <circle cx="6" cy="7" r="6" fill="#663399" />
+            <text x="20" y="11" class="lang-name">CSS</text>
+            <text x="296" y="11" class="lang-pct" text-anchor="end">5.5%</text>
+            <rect x="0" y="22" width="296" height="8" rx="4" fill="#3c3836" />
+            <rect x="0" y="22" width="16.28" height="8" rx="4" fill="#663399" class="bar" style="animation-delay:0.51s" />
         </g>
-        
-        <g transform="translate(20, 200)">
-            <circle cx="5" cy="6" r="5" fill="#e34c26" />
-            <text x="15" y="10" class="lang-name">HTML</text>
-            <text x="250" y="10" class="lang-pct" text-anchor="end">3.9%</text>
-            <rect x="0" y="20" width="260" height="6" rx="3" fill="#3c3836" />
-            <rect x="0" y="20" width="10.165742549832608" height="6" rx="3" fill="#e34c26" />
+        <g transform="translate(22, 222)" class="row" style="animation-delay:0.63s">
+            <circle cx="6" cy="7" r="6" fill="#e34c26" />
+            <text x="20" y="11" class="lang-name">HTML</text>
+            <text x="296" y="11" class="lang-pct" text-anchor="end">3.9%</text>
+            <rect x="0" y="22" width="296" height="8" rx="4" fill="#3c3836" />
+            <rect x="0" y="22" width="11.54" height="8" rx="4" fill="#e34c26" class="bar" style="animation-delay:0.63s" />
         </g>
-        </svg>
+</svg>
