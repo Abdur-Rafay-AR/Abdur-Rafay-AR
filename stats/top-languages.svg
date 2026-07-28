@@ -23,21 +23,21 @@
             <text x="20" y="11" class="lang-name">Python</text>
             <text x="296" y="11" class="lang-pct" text-anchor="end">72.7%</text>
             <rect x="0" y="22" width="296" height="8" rx="4" fill="#3c3836" />
-            <rect x="0" y="22" width="215.1" height="8" rx="4" fill="#3572A5" class="bar" style="animation-delay:0.15s" />
+            <rect x="0" y="22" width="215.14" height="8" rx="4" fill="#3572A5" class="bar" style="animation-delay:0.15s" />
         </g>
         <g transform="translate(22, 108)" class="row" style="animation-delay:0.27s">
             <circle cx="6" cy="7" r="6" fill="#663399" />
             <text x="20" y="11" class="lang-name">CSS</text>
             <text x="296" y="11" class="lang-pct" text-anchor="end">13.0%</text>
             <rect x="0" y="22" width="296" height="8" rx="4" fill="#3c3836" />
-            <rect x="0" y="22" width="38.44" height="8" rx="4" fill="#663399" class="bar" style="animation-delay:0.27s" />
+            <rect x="0" y="22" width="38.43" height="8" rx="4" fill="#663399" class="bar" style="animation-delay:0.27s" />
         </g>
         <g transform="translate(22, 146)" class="row" style="animation-delay:0.39s">
             <circle cx="6" cy="7" r="6" fill="#e34c26" />
             <text x="20" y="11" class="lang-name">HTML</text>
             <text x="296" y="11" class="lang-pct" text-anchor="end">8.7%</text>
             <rect x="0" y="22" width="296" height="8" rx="4" fill="#3c3836" />
-            <rect x="0" y="22" width="25.65" height="8" rx="4" fill="#e34c26" class="bar" style="animation-delay:0.39s" />
+            <rect x="0" y="22" width="25.64" height="8" rx="4" fill="#e34c26" class="bar" style="animation-delay:0.39s" />
         </g>
         <g transform="translate(22, 184)" class="row" style="animation-delay:0.51s">
             <circle cx="6" cy="7" r="6" fill="#f1e05a" />
