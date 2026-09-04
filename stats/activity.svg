@@ -25,14 +25,14 @@
             <rect width="133.33" height="3" rx="1.5" fill="#8ec07c"/>
             <text x="66.67" y="34" class="stat-label" text-anchor="middle">📦 Total</text>
             <text x="66.67" y="52" class="stat-label" text-anchor="middle">Contributions</text>
-            <text x="66.67" y="88" class="stat-value" text-anchor="middle" style="fill:#8ec07c">2592</text>
+            <text x="66.67" y="88" class="stat-value" text-anchor="middle" style="fill:#8ec07c">2599</text>
         </g>
         <g transform="translate(173.33, 74)" class="tile" style="animation-delay:0.3s">
             <rect width="133.33" height="108" rx="8" class="sub-card"/>
             <rect width="133.33" height="3" rx="1.5" fill="#fabd2f"/>
             <text x="66.67" y="34" class="stat-label" text-anchor="middle">🔥 Current</text>
             <text x="66.67" y="52" class="stat-label" text-anchor="middle">Streak</text>
-            <text x="66.67" y="88" class="stat-value" text-anchor="middle" style="fill:#fabd2f">1</text>
+            <text x="66.67" y="88" class="stat-value" text-anchor="middle" style="fill:#fabd2f">2</text>
         </g>
         <g transform="translate(322.66, 74)" class="tile" style="animation-delay:0.45s">
             <rect width="133.33" height="108" rx="8" class="sub-card"/>
