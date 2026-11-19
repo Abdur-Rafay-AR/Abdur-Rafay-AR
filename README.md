@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="https://linkedin.com/in/abdur-rafay-ar"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:abdurrafay432007@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white"></a>
+  <a href="mailto:abdurrafay.tech@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white"></a>
   <a href="https://abdur-rafay-ar.github.io/"><img src="https://img.shields.io/badge/Portfolio-181717?style=flat&logo=github&logoColor=white"></a>
 </p>
 
@@ -15,7 +15,7 @@
 
 ### Background
 
-AI/ML engineer pursuing a Bachelor's in Artificial Intelligence, currently working in Cloud Operations at Lythe Labs. Shipped 25+ production AI systems spanning RAG pipelines, multi-agent orchestration, and voice agents, backed by six internships across international teams. Open to select freelance or contract work.
+AI/ML engineer pursuing a Bachelor's in Artificial Intelligence. Previously Member of Technical Staff at Lythe Labs (SF), shipping agent infrastructure and voice pipelines. Shipped 25+ production AI systems spanning RAG pipelines, multi-agent orchestration, and voice agents, backed by six internships across international teams. Open to full-time AI/ML roles.
 
 ---
 
@@ -54,13 +54,13 @@ More on [Credly →](https://www.credly.com/users/abdur-rafay.658ecb38)
 
 ### Featured work
 
-Open-source tooling built at Lythe Labs, co-built with the team.
-
 | Project | What it does | Stack |
 |---|---|---|
-| **[voice-agent-starter-kit](https://github.com/lythelab/voice-agent-starter-kit)** | Real-time voice agent template: streaming ASR → LLM → TTS pipeline over WebSocket, feels like an actual phone call | Python, FastAPI, WebSocket |
-| **[autonomous-agent](https://github.com/lythelab/autonomous-agent)** | Long-running autonomous agent with persistent memory, sandboxed code execution, and a resumable control-plane API | Python, FastAPI, SQLite, React |
-| **[agent-testing-suite](https://github.com/lythelab/agent-testing-suite)** | Local-first observability and evaluation framework for AI agents: execution tracing, live dashboard, multi-model support | TypeScript, Next.js |
+| **[athar](https://github.com/Abdur-Rafay-AR/athar)** | Local-first time-travel debugger and observability engine for multi-agent LLM systems, fork/replay from a mutated step without re-running earlier steps. Published to PyPI (`pip install athar`) | Python, SQLite WAL |
+| **[relay](https://github.com/Abdur-Rafay-AR/relay)** | AST-based async latency auditor for Python agent codebases, finds tool-call chain bottlenecks with no runtime overhead. Published to PyPI as `relay-arclat` | Python |
+| **[voice-agent-starter-kit](https://github.com/lythelab/voice-agent-starter-kit)** | Real-time voice agent template built at Lythe Labs: streaming ASR → LLM → TTS pipeline over WebSocket, feels like an actual phone call | Python, FastAPI, WebSocket |
+| **[autonomous-agent](https://github.com/lythelab/autonomous-agent)** | Long-running autonomous agent built at Lythe Labs, with persistent memory, sandboxed code execution, and a resumable control-plane API | Python, FastAPI, SQLite, React |
+| **[agent-testing-suite](https://github.com/lythelab/agent-testing-suite)** | Local-first observability and evaluation framework for AI agents built at Lythe Labs: execution tracing, live dashboard, multi-model support | TypeScript, Next.js |
 | **[ai-cache](https://github.com/Abdur-Rafay-AR/ai-cache)** | Automatic caching layer for LLM API responses across OpenAI, Gemini, and Anthropic | Python, LLM APIs |
 
 ---
