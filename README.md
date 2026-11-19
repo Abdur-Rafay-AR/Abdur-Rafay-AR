@@ -57,7 +57,7 @@ More on [Credly →](https://www.credly.com/users/abdur-rafay.658ecb38)
 | Project | What it does | Stack |
 |---|---|---|
 | **[athar](https://github.com/Abdur-Rafay-AR/athar)** | Local-first time-travel debugger and observability engine for multi-agent LLM systems, fork/replay from a mutated step without re-running earlier steps. Published to PyPI (`pip install athar`) | Python, SQLite WAL |
-| **[relay](https://github.com/Abdur-Rafay-AR/relay)** | AST-based async latency auditor for Python agent codebases, finds tool-call chain bottlenecks with no runtime overhead. Published to PyPI as `relay-arclat` | Python |
+| **[relay](https://github.com/arclat-ai/relay-mcp)** | AST-based async latency auditor for Python agent codebases, finds tool-call chain bottlenecks with no runtime overhead. Published to PyPI as `relay-arclat` | Python |
 | **[voice-agent-starter-kit](https://github.com/lythelab/voice-agent-starter-kit)** | Real-time voice agent template built at Lythe Labs: streaming ASR → LLM → TTS pipeline over WebSocket, feels like an actual phone call | Python, FastAPI, WebSocket |
 | **[autonomous-agent](https://github.com/lythelab/autonomous-agent)** | Long-running autonomous agent built at Lythe Labs, with persistent memory, sandboxed code execution, and a resumable control-plane API | Python, FastAPI, SQLite, React |
 | **[agent-testing-suite](https://github.com/lythelab/agent-testing-suite)** | Local-first observability and evaluation framework for AI agents built at Lythe Labs: execution tracing, live dashboard, multi-model support | TypeScript, Next.js |
