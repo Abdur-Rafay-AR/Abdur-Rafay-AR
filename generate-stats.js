@@ -157,20 +157,20 @@ function calculateStreak(allDays, totalContributions) {
     return { totalContributions, currentStreak, longestStreak };
 }
 
-// Gruvbox Dark palette shared by both cards
+// Obsidian & Terracotta palette matching abdur-rafay-ar.github.io
 const THEME = {
-    bg0: '#1d2021',
-    bg: '#282828',
-    bgSoft: '#32302f',
-    fg: '#ebdbb2',
-    subtext: '#a89984',
-    border: '#3c3836',
-    barBg: '#3c3836',
-    yellow: '#fabd2f',
-    orange: '#fe8019',
-    aqua: '#8ec07c',
-    red: '#fb4934',
-    green: '#b8bb26',
+    bg0: '#08090a',
+    bg: '#0e1011',
+    bgSoft: '#141718',
+    fg: '#ecedec',
+    subtext: '#9ba09d',
+    border: '#2e1c17',
+    barBg: '#211815',
+    yellow: '#f08a6a', // Terracotta highlight
+    orange: '#e0653f', // Terracotta primary brand accent
+    aqua: '#e0653f',   // Brand accent
+    red: '#c14a29',    // Deep terracotta
+    green: '#46a35f',  // Semantic green
 };
 
 // Round to 2 decimals for clean SVG coordinate output
@@ -217,7 +217,7 @@ function generateLanguageCard(languages) {
     </defs>
     <style>
         .card-bg { fill: url(#cardGradLang); stroke: ${THEME.border}; stroke-width: 1.5px; }
-        .header { font: 700 19px 'Segoe UI', Ubuntu, Sans-Serif; fill: ${THEME.yellow}; }
+        .header { font: 700 19px 'Segoe UI', Ubuntu, Sans-Serif; fill: ${THEME.orange}; }
         .lang-name { font: 500 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: ${THEME.fg}; }
         .lang-pct { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: ${THEME.subtext}; }
         .row { opacity: 0; animation: fadeIn 0.6s ease forwards; }
@@ -226,7 +226,7 @@ function generateLanguageCard(languages) {
         @keyframes growIn { to { transform: scaleX(1); } }
     </style>
     <rect x="0.75" y="0.75" rx="12" height="${height - 1.5}" width="${width - 1.5}" class="card-bg"/>
-    <text x="${padding}" y="40" class="header">💻 Top Languages</text>
+    <text x="${padding}" y="40" class="header">Top Languages</text>
     ${rows}
 </svg>`;
 }
@@ -241,9 +241,9 @@ function generateActivityCard(stats) {
     const tileH = 108;
 
     const tiles = [
-        { icon: '📦', label: 'Total', sub: 'Contributions', value: stats.totalContributions, color: THEME.aqua },
-        { icon: '🔥', label: 'Current', sub: 'Streak', value: stats.currentStreak, color: THEME.yellow },
-        { icon: '🏆', label: 'Longest', sub: 'Streak', value: stats.longestStreak, color: THEME.red },
+        { label: 'Total', sub: 'Contributions', value: stats.totalContributions, color: THEME.orange },
+        { label: 'Current', sub: 'Day Streak', value: stats.currentStreak, color: THEME.yellow },
+        { label: 'Longest', sub: 'Day Streak', value: stats.longestStreak, color: THEME.green },
     ];
 
     const tileSvg = tiles.map((t, i) => {
@@ -254,7 +254,7 @@ function generateActivityCard(stats) {
         <g transform="translate(${x}, ${tileY})" class="tile" style="animation-delay:${delay}s">
             <rect width="${tileW}" height="${tileH}" rx="8" class="sub-card"/>
             <rect width="${tileW}" height="3" rx="1.5" fill="${t.color}"/>
-            <text x="${cx}" y="34" class="stat-label" text-anchor="middle">${t.icon} ${t.label}</text>
+            <text x="${cx}" y="34" class="stat-label" text-anchor="middle">${t.label}</text>
             <text x="${cx}" y="52" class="stat-label" text-anchor="middle">${t.sub}</text>
             <text x="${cx}" y="88" class="stat-value" text-anchor="middle" style="fill:${t.color}">${t.value}</text>
         </g>`;
@@ -280,7 +280,7 @@ function generateActivityCard(stats) {
         @keyframes fadeIn { to { opacity: 1; } }
     </style>
     <rect x="0.75" y="0.75" rx="12" height="${height - 1.5}" width="${width - 1.5}" class="card-bg"/>
-    <text x="${padding}" y="42" class="header">⚡ GitHub Activity</text>
+    <text x="${padding}" y="42" class="header">GitHub Activity</text>
     ${tileSvg}
 </svg>`;
 }

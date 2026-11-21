@@ -1,56 +1,56 @@
 <svg width="340" height="270" viewBox="0 0 340 270" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Top languages">
     <defs>
         <linearGradient id="cardGradLang" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="#282828"/>
-            <stop offset="100%" stop-color="#1d2021"/>
+            <stop offset="0%" stop-color="#0e1011"/>
+            <stop offset="100%" stop-color="#08090a"/>
         </linearGradient>
     </defs>
     <style>
-        .card-bg { fill: url(#cardGradLang); stroke: #3c3836; stroke-width: 1.5px; }
-        .header { font: 700 19px 'Segoe UI', Ubuntu, Sans-Serif; fill: #fabd2f; }
-        .lang-name { font: 500 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: #ebdbb2; }
-        .lang-pct { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #a89984; }
+        .card-bg { fill: url(#cardGradLang); stroke: #2e1c17; stroke-width: 1.5px; }
+        .header { font: 700 19px 'Segoe UI', Ubuntu, Sans-Serif; fill: #e0653f; }
+        .lang-name { font: 500 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: #ecedec; }
+        .lang-pct { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #9ba09d; }
         .row { opacity: 0; animation: fadeIn 0.6s ease forwards; }
         .bar { transform: scaleX(0); transform-origin: left; animation: growIn 0.9s cubic-bezier(0.4,0,0.2,1) forwards; }
         @keyframes fadeIn { to { opacity: 1; } }
         @keyframes growIn { to { transform: scaleX(1); } }
     </style>
     <rect x="0.75" y="0.75" rx="12" height="268.5" width="338.5" class="card-bg"/>
-    <text x="22" y="40" class="header">💻 Top Languages</text>
+    <text x="22" y="40" class="header">Top Languages</text>
     
         <g transform="translate(22, 70)" class="row" style="animation-delay:0.15s">
             <circle cx="6" cy="7" r="6" fill="#3572A5" />
             <text x="20" y="11" class="lang-name">Python</text>
             <text x="296" y="11" class="lang-pct" text-anchor="end">65.0%</text>
-            <rect x="0" y="22" width="296" height="8" rx="4" fill="#3c3836" />
+            <rect x="0" y="22" width="296" height="8" rx="4" fill="#211815" />
             <rect x="0" y="22" width="192.27" height="8" rx="4" fill="#3572A5" class="bar" style="animation-delay:0.15s" />
         </g>
         <g transform="translate(22, 108)" class="row" style="animation-delay:0.27s">
             <circle cx="6" cy="7" r="6" fill="#3178c6" />
             <text x="20" y="11" class="lang-name">TypeScript</text>
             <text x="296" y="11" class="lang-pct" text-anchor="end">16.2%</text>
-            <rect x="0" y="22" width="296" height="8" rx="4" fill="#3c3836" />
+            <rect x="0" y="22" width="296" height="8" rx="4" fill="#211815" />
             <rect x="0" y="22" width="48.02" height="8" rx="4" fill="#3178c6" class="bar" style="animation-delay:0.27s" />
         </g>
         <g transform="translate(22, 146)" class="row" style="animation-delay:0.39s">
             <circle cx="6" cy="7" r="6" fill="#663399" />
             <text x="20" y="11" class="lang-name">CSS</text>
             <text x="296" y="11" class="lang-pct" text-anchor="end">8.1%</text>
-            <rect x="0" y="22" width="296" height="8" rx="4" fill="#3c3836" />
+            <rect x="0" y="22" width="296" height="8" rx="4" fill="#211815" />
             <rect x="0" y="22" width="24.06" height="8" rx="4" fill="#663399" class="bar" style="animation-delay:0.39s" />
         </g>
         <g transform="translate(22, 184)" class="row" style="animation-delay:0.51s">
             <circle cx="6" cy="7" r="6" fill="#e34c26" />
             <text x="20" y="11" class="lang-name">HTML</text>
             <text x="296" y="11" class="lang-pct" text-anchor="end">6.6%</text>
-            <rect x="0" y="22" width="296" height="8" rx="4" fill="#3c3836" />
+            <rect x="0" y="22" width="296" height="8" rx="4" fill="#211815" />
             <rect x="0" y="22" width="19.65" height="8" rx="4" fill="#e34c26" class="bar" style="animation-delay:0.51s" />
         </g>
         <g transform="translate(22, 222)" class="row" style="animation-delay:0.63s">
             <circle cx="6" cy="7" r="6" fill="#f1e05a" />
             <text x="20" y="11" class="lang-name">JavaScript</text>
             <text x="296" y="11" class="lang-pct" text-anchor="end">3.4%</text>
-            <rect x="0" y="22" width="296" height="8" rx="4" fill="#3c3836" />
+            <rect x="0" y="22" width="296" height="8" rx="4" fill="#211815" />
             <rect x="0" y="22" width="10.04" height="8" rx="4" fill="#f1e05a" class="bar" style="animation-delay:0.63s" />
         </g>
 </svg>

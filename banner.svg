@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="260" viewBox="0 0 880 260" fill="none" role="img" aria-label="Abdur Rafay - AI Systems &amp; Infrastructure">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08090a" />
+      <stop offset="60%" stop-color="#0b0d0e" />
+      <stop offset="100%" stop-color="#121516" />
+    </linearGradient>
+
+    <!-- Subtle Terracotta Border Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0653f" stop-opacity="0.8" />
+      <stop offset="30%" stop-color="#2a1d18" stop-opacity="0.6" />
+      <stop offset="70%" stop-color="#2a1d18" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#e0653f" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Corner Ambient Glow -->
+    <radialGradient id="cornerGlow" cx="0%" cy="0%" r="100%">
+      <stop offset="0%" stop-color="#e0653f" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#08090a" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace; }
+    .sans { font-family: 'Switzer', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="880" height="260" rx="12" fill="url(#bgGrad)" />
+  <rect width="880" height="260" rx="12" fill="url(#cornerGlow)" />
+
+  <!-- Top Metadata Bar -->
+  <g transform="translate(44, 32)">
+    <text x="0" y="0" class="mono" font-size="11" font-weight="600" fill="#e0653f" letter-spacing="1.4">
+      AI SYSTEMS &amp; INFRASTRUCTURE
+    </text>
+    <text x="792" y="0" text-anchor="end" class="mono" font-size="11" fill="#7f8582">
+      <tspan fill="#46a35f">&#9679;</tspan> AVAILABLE FOR FREELANCE &amp; FULL-TIME ROLES
+    </text>
+  </g>
+
+  <!-- Hairline Rule -->
+  <line x1="44" y1="46" x2="836" y2="46" stroke="#1f1816" stroke-width="1" />
+
+  <!-- Primary Headline: Name -->
+  <text x="44" y="90" class="sans" font-size="34" font-weight="700" fill="#ecedec" letter-spacing="-0.5">
+    Abdur Rafay
+  </text>
+
+  <!-- Subtitle / Mission Statement -->
+  <text x="44" y="119" class="sans" font-size="15.5" font-weight="500" fill="#ecedec">
+    I build <tspan fill="#f08a6a">multi-agent systems</tspan> and the infrastructure behind them.
+  </text>
+
+  <!-- Technical Scope Description -->
+  <text x="44" y="142" class="sans" font-size="13" fill="#9ba09d">
+    Autonomous planning loops, local time-travel debugging, persistent memory, and real-time voice pipelines.
+  </text>
+
+  <!-- Bottom Metric Bar Container -->
+  <rect x="44" y="170" width="792" height="54" rx="8" fill="#0f1112" stroke="#221815" stroke-width="1" />
+
+  <!-- Column 1: PyPI Packages -->
+  <g transform="translate(44, 170)">
+    <text x="99" y="21" text-anchor="middle" class="mono" font-size="9.5" font-weight="500" fill="#7f8582" letter-spacing="1">PYPI AUTHOR</text>
+    <text x="99" y="40" text-anchor="middle" class="sans" font-size="12.5" font-weight="600" fill="#ecedec">Athar · Relay · ai-cache</text>
+  </g>
+
+  <line x1="242" y1="182" x2="242" y2="212" stroke="#221815" stroke-width="1" />
+
+  <!-- Column 2: Cloud & Infrastructure -->
+  <g transform="translate(242, 170)">
+    <text x="99" y="21" text-anchor="middle" class="mono" font-size="9.5" font-weight="500" fill="#7f8582" letter-spacing="1">CLOUD &amp; DEVOPS</text>
+    <text x="99" y="40" text-anchor="middle" class="sans" font-size="12.5" font-weight="600" fill="#ecedec">CI/CD · AWS · GCP</text>
+  </g>
+
+  <line x1="440" y1="182" x2="440" y2="212" stroke="#221815" stroke-width="1" />
+
+  <!-- Column 3: Upstream Contributions -->
+  <g transform="translate(440, 170)">
+    <text x="99" y="21" text-anchor="middle" class="mono" font-size="9.5" font-weight="500" fill="#7f8582" letter-spacing="1">UPSTREAM OSS</text>
+    <text x="99" y="40" text-anchor="middle" class="sans" font-size="12.5" font-weight="600" fill="#ecedec">Arize Phoenix · IBM Docling</text>
+  </g>
+
+  <line x1="638" y1="182" x2="638" y2="212" stroke="#221815" stroke-width="1" />
+
+  <!-- Column 4: Specialization -->
+  <g transform="translate(638, 170)">
+    <text x="99" y="21" text-anchor="middle" class="mono" font-size="9.5" font-weight="500" fill="#7f8582" letter-spacing="1">SPECIALIZATION</text>
+    <text x="99" y="40" text-anchor="middle" class="sans" font-size="12.5" font-weight="600" fill="#ecedec">Multi-Agent &amp; Voice AI</text>
+  </g>
+
+  <!-- Exterior Border Stroke -->
+  <rect x="0.75" y="0.75" width="878.5" height="258.5" rx="11.25" fill="none" stroke="url(#borderGrad)" stroke-width="1.5" />
+</svg>
