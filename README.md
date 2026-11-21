@@ -4,23 +4,19 @@
 
 <p align="center">
   <a href="https://abdur-rafay-ar.github.io/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-abdur--rafay--ar.github.io-e0653f?style=flat-square&logo=googlechrome&logoColor=white&labelColor=08090a" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/Portfolio-Visit-141718?style=flat-square&logo=googlechrome&logoColor=white&labelColor=08090a" alt="Portfolio" />
   </a>
   &nbsp;
   <a href="https://linkedin.com/in/abdur-rafay-ar" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-abdur--rafay--ar-e0653f?style=flat-square&logo=linkedin&logoColor=white&labelColor=08090a" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-141718?style=flat-square&logo=linkedin&logoColor=white&labelColor=08090a" alt="LinkedIn" />
   </a>
   &nbsp;
   <a href="https://www.upwork.com/freelancers/~01e0e53ea3fc415198" target="_blank">
-    <img src="https://img.shields.io/badge/Upwork-Abdur%20Rafay-e0653f?style=flat-square&logo=upwork&logoColor=white&labelColor=08090a" alt="Upwork" />
-  </a>
-  &nbsp;
-  <a href="https://pypi.org/user/Abdur-Rafay/" target="_blank">
-    <img src="https://img.shields.io/badge/PyPI-Packages-e0653f?style=flat-square&logo=pypi&logoColor=white&labelColor=08090a" alt="PyPI" />
+    <img src="https://img.shields.io/badge/Upwork-Hire-141718?style=flat-square&logo=upwork&logoColor=white&labelColor=08090a" alt="Upwork" />
   </a>
   &nbsp;
   <a href="mailto:abdurrafay.tech@gmail.com">
-    <img src="https://img.shields.io/badge/Email-abdurrafay.tech%40gmail.com-e0653f?style=flat-square&logo=gmail&logoColor=white&labelColor=08090a" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-Contact-141718?style=flat-square&logo=gmail&logoColor=white&labelColor=08090a" alt="Email" />
   </a>
 </p>
 
@@ -83,7 +79,7 @@ Most AI work fails somewhere other than the prompt: in state drift across agents
   <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" />
   <img src="https://img.shields.io/badge/Anthropic-19C37D?style=flat-square&logo=anthropic&logoColor=white" />
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/RAG%20Pipelines-e0653f?style=flat-square" />
+  <img src="https://img.shields.io/badge/RAG%20Pipelines-1C3C3C?style=flat-square" />
 </p>
 
 <p align="left">

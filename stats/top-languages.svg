@@ -7,7 +7,7 @@
     </defs>
     <style>
         .card-bg { fill: url(#cardGradLang); stroke: #2e1c17; stroke-width: 1.5px; }
-        .header { font: 700 19px 'Segoe UI', Ubuntu, Sans-Serif; fill: #e0653f; }
+        .header { font: 700 19px 'Segoe UI', Ubuntu, Sans-Serif; fill: #ecedec; }
         .lang-name { font: 500 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: #ecedec; }
         .lang-pct { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #9ba09d; }
         .row { opacity: 0; animation: fadeIn 0.6s ease forwards; }

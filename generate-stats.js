@@ -217,7 +217,7 @@ function generateLanguageCard(languages) {
     </defs>
     <style>
         .card-bg { fill: url(#cardGradLang); stroke: ${THEME.border}; stroke-width: 1.5px; }
-        .header { font: 700 19px 'Segoe UI', Ubuntu, Sans-Serif; fill: ${THEME.orange}; }
+        .header { font: 700 19px 'Segoe UI', Ubuntu, Sans-Serif; fill: ${THEME.fg}; }
         .lang-name { font: 500 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: ${THEME.fg}; }
         .lang-pct { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: ${THEME.subtext}; }
         .row { opacity: 0; animation: fadeIn 0.6s ease forwards; }
@@ -272,7 +272,7 @@ function generateActivityCard(stats) {
     </defs>
     <style>
         .card-bg { fill: url(#cardGradAct); stroke: ${THEME.border}; stroke-width: 1.5px; }
-        .header { font: 700 22px 'Segoe UI', Ubuntu, Sans-Serif; fill: ${THEME.orange}; }
+        .header { font: 700 22px 'Segoe UI', Ubuntu, Sans-Serif; fill: ${THEME.fg}; }
         .stat-label { font: 500 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: ${THEME.subtext}; }
         .stat-value { font: 700 26px 'Segoe UI', Ubuntu, Sans-Serif; }
         .sub-card { fill: ${THEME.bgSoft}; filter: url(#shadow); }

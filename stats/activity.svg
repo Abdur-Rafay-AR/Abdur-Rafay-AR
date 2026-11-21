@@ -10,7 +10,7 @@
     </defs>
     <style>
         .card-bg { fill: url(#cardGradAct); stroke: #2e1c17; stroke-width: 1.5px; }
-        .header { font: 700 22px 'Segoe UI', Ubuntu, Sans-Serif; fill: #e0653f; }
+        .header { font: 700 22px 'Segoe UI', Ubuntu, Sans-Serif; fill: #ecedec; }
         .stat-label { font: 500 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #9ba09d; }
         .stat-value { font: 700 26px 'Segoe UI', Ubuntu, Sans-Serif; }
         .sub-card { fill: #141718; filter: url(#shadow); }
