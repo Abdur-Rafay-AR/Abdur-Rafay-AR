@@ -3,21 +3,10 @@
 </p>
 
 <p align="center">
-  <a href="https://abdur-rafay-ar.github.io/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-Visit-141718?style=flat-square&logo=googlechrome&logoColor=white&labelColor=08090a" alt="Portfolio" />
-  </a>
-  &nbsp;
-  <a href="https://linkedin.com/in/abdur-rafay-ar" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-141718?style=flat-square&logo=linkedin&logoColor=white&labelColor=08090a" alt="LinkedIn" />
-  </a>
-  &nbsp;
-  <a href="https://www.upwork.com/freelancers/~01e0e53ea3fc415198" target="_blank">
-    <img src="https://img.shields.io/badge/Upwork-Hire-141718?style=flat-square&logo=upwork&logoColor=white&labelColor=08090a" alt="Upwork" />
-  </a>
-  &nbsp;
-  <a href="mailto:abdurrafay.tech@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-141718?style=flat-square&logo=gmail&logoColor=white&labelColor=08090a" alt="Email" />
-  </a>
+  <a href="https://abdur-rafay-ar.github.io/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-Visit-141718?style=flat-square&logo=googlechrome&logoColor=white&labelColor=08090a" alt="Portfolio" /></a>
+  <a href="https://linkedin.com/in/abdur-rafay-ar" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Connect-141718?style=flat-square&logo=linkedin&logoColor=white&labelColor=08090a" alt="LinkedIn" /></a>
+  <a href="https://www.upwork.com/freelancers/~01e0e53ea3fc415198" target="_blank"><img src="https://img.shields.io/badge/Upwork-Hire-141718?style=flat-square&logo=upwork&logoColor=white&labelColor=08090a" alt="Upwork" /></a>
+  <a href="mailto:abdurrafay.tech@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-141718?style=flat-square&logo=gmail&logoColor=white&labelColor=08090a" alt="Email" /></a>
 </p>
 
 <p align="center"><img src="divider.svg" width="100%" alt="" /></p>
@@ -28,12 +17,9 @@ I'm Abdur Rafay, an AI Engineer based in Islamabad. I design and ship multi-agen
 
 Most AI work fails somewhere other than the prompt: in state drift across agents, in unobservable tool loops, in a blocking call that adds half a second to a phone conversation, or in the deploy that nobody automated. I work on that whole surface, not just the model call.
 
-- Author of **Athar**, **Relay**, and **ai-cache** on PyPI.
-- Focus: Multi-agent systems, local-first agent infrastructure, and real-time voice AI.
-- Infrastructure ownership: CI/CD automation, Docker, AWS, and Google Cloud stacks.
-- Engineering background across six international roles (formerly Member of Technical Staff at Lythe Labs).
-- Undergraduate AI Researcher completing a BS in Artificial Intelligence at Bahria University (BUIC E-8).
-- Available for freelance contracts and full-time engineering roles.
+- **Experience:** Former Member of Technical Staff at Lythe Labs (San Francisco); engineering background spanning six international roles.
+- **Research &amp; Education:** Undergraduate AI Researcher completing a BS in Artificial Intelligence at Bahria University (BUIC E-8).
+- **Production AI:** Shipped 25+ production AI systems across agent orchestration, voice agents, and local-first developer infrastructure.
 
 <p align="center"><img src="divider.svg" width="100%" alt="" /></p>
 
@@ -41,16 +27,14 @@ Most AI work fails somewhere other than the prompt: in state drift across agents
 
 | Project | Type | Description | Stack | Links |
 |:---|:---:|:---|:---|:---:|
-| **Athar** | PyPI | Local-first, time-travel debugger and observability engine for multi-agent LLM systems with SQLite WAL, state mutation, and instantaneous fork &amp; replay. | Python, FastAPI, SQLite WAL, LangGraph | [Source](https://github.com/Abdur-Rafay-AR/athar) &middot; [PyPI](https://pypi.org/project/athar/) |
-| **Relay** | PyPI | MCP server that audits Python voice-agent codebases for async mistakes and blocking calls that quietly add latency to a phone call via AST analysis. | Python, MCP, AST Analysis, asyncio | [Source](https://github.com/arclat-ai/relay-mcp) &middot; [PyPI](https://pypi.org/project/relay-arclat/) |
-| **ai-cache** | PyPI | Transparent local caching of LLM responses across OpenAI, Anthropic, and Gemini via SQLite to cut latency and API token spend. | Python, SQLite, LLM APIs | [Source](https://github.com/Abdur-Rafay-AR/ai-cache) &middot; [PyPI](https://pypi.org/project/ai-cache/) |
+| **Athar** | PyPI | Local-first, time-travel debugger and observability engine for multi-agent LLM systems with SQLite WAL, state mutation, and instantaneous fork &amp; replay. | Python, FastAPI, SQLite WAL, LangGraph | [Source](https://github.com/Abdur-Rafay-AR/athar) · [PyPI](https://pypi.org/project/athar/) |
+| **Relay** | PyPI | MCP server that audits Python voice-agent codebases for async mistakes and blocking calls that quietly add latency to a phone call via AST analysis. | Python, MCP, AST Analysis, asyncio | [Source](https://github.com/arclat-ai/relay-mcp) · [PyPI](https://pypi.org/project/relay-arclat/) |
+| **ai-cache** | PyPI | Transparent local caching of LLM responses across OpenAI, Anthropic, and Gemini via SQLite to cut latency and API token spend. | Python, SQLite, LLM APIs | [Source](https://github.com/Abdur-Rafay-AR/ai-cache) · [PyPI](https://pypi.org/project/ai-cache/) |
 | **Crucible** | OSS | Multi-agent framework that runs entirely on-machine: hybrid BM25 + embedding retrieval over SQLite, local models via Ollama, zero core dependencies. | Python, SQLite, Ollama, BM25 | [Source](https://github.com/Abdur-Rafay-AR/crucible) |
-| **Voice Agent Starter Kit** | OSS | Complete real-time voice loop streaming ASR &rarr; LLM &rarr; TTS over WebSockets with client-side VAD, barge-in, and built-in latency telemetry. | FastAPI, WebSockets, Deepgram, Groq | [Source](https://github.com/lythelab/voice-agent-starter-kit) |
+| **Voice Agent Starter Kit** | OSS | Complete real-time voice loop streaming ASR → LLM → TTS over WebSockets with client-side VAD, barge-in, and built-in latency telemetry. | FastAPI, WebSockets, Deepgram, Groq | [Source](https://github.com/lythelab/voice-agent-starter-kit) |
 | **mcpie** | OSS | Security scanner for MCP servers in the shape of npm audit. Scans for tool poisoning, over-broad permissions, and credential exposure. | TypeScript, MCP, Static Analysis | [Source](https://github.com/arclat-ai/mcpie) |
 | **Agent Testing Suite** | OSS | Interactive evaluation dashboard for multi-agent pipelines: instruments latency, token spend, and tool invocation frequency. | Python, LangChain, Streamlit | [Source](https://github.com/lythelab/agent-testing-suite) |
 | **Long-Running Agent** | OSS | Autonomous agent built for weeks of continuous runtime: LLM planning loops, sandboxed execution, and resumable sessions. | Python, LangChain, FastAPI | [Source](https://github.com/lythelab/autonomous-agent) |
-
-<p align="center"><img src="divider.svg" width="100%" alt="" /></p>
 
 ## Upstream Contributions
 
@@ -101,16 +85,12 @@ Most AI work fails somewhere other than the prompt: in state drift across agents
   <img src="https://img.shields.io/badge/CI%2FCD-08090a?style=flat-square&logo=githubactions&logoColor=white" />
 </p>
 
-<p align="center"><img src="divider.svg" width="100%" alt="" /></p>
-
 ## Credentials
 
 <table>
   <tr>
     <td width="150" align="center">
-      <a href="https://www.credly.com/badges/75a6c244-0709-4b7e-85ea-2d826e1b9c86/public_url" target="_blank">
-        <img src="https://images.credly.com/images/70675aed-31be-4c30-add7-b99905a34005/linkedin_thumb_image.png" alt="IBM AI Developer Professional Certificate" width="120" />
-      </a>
+      <a href="https://www.credly.com/badges/75a6c244-0709-4b7e-85ea-2d826e1b9c86/public_url" target="_blank"><img src="https://images.credly.com/images/70675aed-31be-4c30-add7-b99905a34005/linkedin_thumb_image.png" alt="IBM AI Developer Professional Certificate" width="120" /></a>
     </td>
     <td>
       <h3>IBM AI Developer Professional Certificate</h3>
